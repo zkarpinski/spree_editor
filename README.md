@@ -11,7 +11,7 @@ So the only editor currently working on Spree 0.70.x is TinyMCE.
   gem "spree_editor", :git => "git://github.com/spree/spree_editor.git"
 </pre>
 2. Run `bundle install`
-3. Run: `rake spree_editor:install`
+3. There is no step 3 :)
 
 
 Copyright (c) 2010 [divineforest], released under the New BSD License
