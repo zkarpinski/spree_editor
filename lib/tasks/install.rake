@@ -1,8 +1,6 @@
 namespace :spree_editor do
   desc "Copies all migrations and assets (NOTE: This will be obsolete with Rails 3.1)"
   task :install do
-    # No migrations
-    # Rake::Task['spree_editor:install:migrations'].invoke
     Rake::Task['spree_editor:install:assets'].invoke
   end
 
