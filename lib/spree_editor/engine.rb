@@ -10,6 +10,7 @@ module SpreeEditor
 
     initializer "spree_editor.preferences", :before => :load_config_initializers do |app|
       SpreeEditor::Config = Spree::EditorConfiguration.new
+      Spree::Config[:show_raw_product_description] = SpreeEditor::Config[:enabled]
     end
 
     config.autoload_paths += %W(#{config.root}/lib)
