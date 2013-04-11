@@ -16,7 +16,9 @@ class Spree::Admin::EditorSettingsController < Spree::Admin::BaseController
       config[name] = value
     end
 
-    Spree::Config[:show_raw_product_description] = config[:enabled]
+    if Spree::Config.has_preference? :show_raw_product_description
+      Spree::Config[:show_raw_product_description] = config[:enabled]
+    end
 
     redirect_to admin_editor_settings_path
   end
