@@ -27,6 +27,7 @@ require 'capybara/rspec'
 require 'shoulda-matchers'
 require 'database_cleaner'
 require 'ffaker'
+require 'pry'
 
 Dir[File.join(File.dirname(__FILE__), 'support/**/*.rb')].each { |f| require f }
 
