@@ -1,6 +1,7 @@
 # Spree Editor
 
-[![Build Status](https://api.travis-ci.org/spree/spree_editor.png?branch=master)](https://travis-ci.org/spree/spree_editor)
+[![Build Status](https://api.travis-ci.org/spree/spree_editor.png?branch=2-2-stable)](https://travis-ci.org/spree/spree_editor)
+[![Code Climate](https://codeclimate.com/github/spree/spree_editor.png)](https://codeclimate.com/github/spree/spree_editor)
 
 This extension provides an inline rich-text editor for Spree. It implements different types of editors:
 
@@ -87,4 +88,4 @@ Copyright (c) 2014 [divineforest][5] and other [contributors][6], released under
 [4]: https://github.com/sttermo/spree_editor/issues
 [5]: https://github.com/divineforest
 [6]: https://github.com/sttermo/spree_editor/graphs/contributors
-[7]: https://github.com/sttermo/spree_editor/blob/master/LICENSE.md
+[7]: https://github.com/sttermo/spree_editor/blob/2-2-stable/LICENSE.md

@@ -32,7 +32,7 @@ feature 'Rich Editor Settings', js: true do
         click_button 'Update'
 
         visit spree.edit_admin_product_path(product)
-        expect(page).to have_css '.mce-tinymce', match: :one
+        expect(page).to have_css '.mceEditor', match: :first, visible: false
       end
     end
 
