@@ -12,7 +12,7 @@ This extension provides an inline rich-text editor for Spree. It implements diff
 
 1. Add the Spree Editor gem to your `Gemfile`:
   ```ruby
-  gem 'spree_editor', github: 'spree/spree_editor'
+  gem 'spree_editor', github: 'spree/spree_editor', branch: '2-3-stable'
   ```
 
 2. Run:
