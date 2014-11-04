@@ -1,6 +1,6 @@
 # Spree Editor
 
-[![Build Status](https://travis-ci.org/spree/spree_editor.png?branch=2-0-stable)](https://travis-ci.org/spree/spree_editor)
+[![Build Status](https://travis-ci.org/spree-contrib/spree_editor.svg?branch=2-0-stable)](https://travis-ci.org/spree-contrib/spree_editor)
 
 ## Summary
 
