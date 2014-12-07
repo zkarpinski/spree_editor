@@ -1,6 +1,6 @@
 # Spree Editor
 
-[![Build Status](https://travis-ci.org/spree-contrib/spree_editor.svg?branch=master)](https://travis-ci.org/spree-contrib/spree_editor)
+[![Build Status](https://travis-ci.org/spree-contrib/spree_editor.svg?branch=2-4-stable)](https://travis-ci.org/spree-contrib/spree_editor)
 [![Code Climate](https://codeclimate.com/github/spree-contrib/spree_editor/badges/gpa.svg)](https://codeclimate.com/github/spree-contrib/spree_editor)
 
 This extension provides an inline rich-text editor for Spree. It implements different types of editors:
@@ -12,7 +12,7 @@ This extension provides an inline rich-text editor for Spree. It implements diff
 
 1. Add the Spree Editor gem to your `Gemfile`:
   ```ruby
-  gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: 'master'
+  gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: '2-4-stable'
   ```
 
 2. Run:
