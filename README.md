@@ -1,7 +1,7 @@
 # Spree Editor
 
 [![Build Status](https://travis-ci.org/spree-contrib/spree_editor.svg?branch=master)](https://travis-ci.org/spree-contrib/spree_editor)
-[![Code Climate](https://codeclimate.com/github/spree/spree_editor.png)](https://codeclimate.com/github/spree/spree_editor)
+[![Code Climate](https://codeclimate.com/github/spree-contrib/spree_editor/badges/gpa.svg)](https://codeclimate.com/github/spree-contrib/spree_editor)
 
 This extension provides an inline rich-text editor for Spree. It implements different types of editors:
 
@@ -12,7 +12,7 @@ This extension provides an inline rich-text editor for Spree. It implements diff
 
 1. Add the Spree Editor gem to your `Gemfile`:
   ```ruby
-  gem 'spree_editor', github: 'spree/spree_editor'
+  gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: 'master'
   ```
 
 2. Run:
@@ -85,7 +85,7 @@ Copyright (c) 2014 [divineforest][5] and other [contributors][6], released under
 [1]: http://ckeditor.com
 [2]: http://www.tinymce.com
 [3]: http://www.fsf.org/licensing/essays/free-sw.html
-[4]: https://github.com/sttermo/spree_editor/issues
+[4]: https://github.com/spree-contrib/spree_editor/issues
 [5]: https://github.com/divineforest
-[6]: https://github.com/sttermo/spree_editor/graphs/contributors
-[7]: https://github.com/sttermo/spree_editor/blob/master/LICENSE.md
+[6]: https://github.com/spree-contrib/spree_editor/graphs/contributors
+[7]: https://github.com/spree-contrib/spree_editor/blob/master/LICENSE.md
